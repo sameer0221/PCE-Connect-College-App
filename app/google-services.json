@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "396020891440",
+    "project_id": "pce-connect",
+    "storage_bucket": "pce-connect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396020891440:android:f1b8cdf63b7acc571752f5",
+        "android_client_info": {
+          "package_name": "com.example.pceconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396020891440-rhln23801gcv0c5ngmqd1ho9t4h1apls.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLJ2_LxMpP-ZdKmcFWyB6nTc5REA_xQnk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396020891440-rhln23801gcv0c5ngmqd1ho9t4h1apls.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

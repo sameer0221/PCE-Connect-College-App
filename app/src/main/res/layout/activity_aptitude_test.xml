@@ -7,21 +7,68 @@
     tools:context="com.example.pceconnect.splashscreenok">
 
 
-
-
-    <TextView
-        android:id="@+id/appname"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/simpleButton"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Apptitude Test"
-        android:textSize="25dp"
-        android:layout_centerInParent="true"
-        android:textStyle="bold"
-        android:textColor="#676161"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="150dp"
-        />
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/optiondesign"
+        android:onClick="Company"
+        android:padding="15dp"
+        android:text="About Compnay"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
+    <Button
+        android:id="@+id/simpleButton1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/simpleButton"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/optiondesign"
+        android:onClick="Apptitude"
+        android:padding="15dp"
+        android:text="Apptitude"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/simpleButton2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/simpleButton1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/optiondesign"
+        android:onClick="Technical"
+        android:padding="15dp"
+        android:text="Technical"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/simpleButton3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/simpleButton2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/optiondesign"
+        android:onClick="Testji"
+        android:padding="15dp"
+        android:text="Test"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!--Background green color-->
 
 </RelativeLayout>
 

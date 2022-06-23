@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.pceconnect">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher_round"
@@ -9,6 +11,164 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PCEConnect">
+
+        <activity
+            android:name=".ResultActivity7"
+            android:exported="false" />
+        <activity
+            android:name=".ResultActivity6"
+            android:exported="false" />
+        <activity
+            android:name=".ResultActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".ResultActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".ResultActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".ResultActivity1"
+            android:exported="false" />
+        <activity
+            android:name=".Resultji"
+            android:exported="false" />
+        <activity
+            android:name=".Erpji"
+            android:exported="false" />
+        <activity
+            android:name=".Websiteji"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionPS2"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionPS"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionPB"
+            android:exported="false" />
+        <activity
+            android:name=".SimpleCalculator"
+            android:exported="false" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".NotesPB"
+            android:exported="false" />
+        <activity
+            android:name=".NotesPS"
+            android:exported="false" />
+        <activity
+            android:name=".NotesPS2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityjiok"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionsActivity7"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionsActivity6"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionsActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionsActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionsActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionsActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".ResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pdf22"
+            android:exported="false" />
+        <activity
+            android:name=".pdf21"
+            android:exported="false" />
+        <activity
+            android:name=".pdf20"
+            android:exported="false" />
+        <activity
+            android:name=".pdf19"
+            android:exported="false" />
+        <activity
+            android:name=".pdf18"
+            android:exported="false" />
+        <activity
+            android:name=".pdf17"
+            android:exported="false" />
+        <activity
+            android:name=".pdf16"
+            android:exported="false" />
+        <activity
+            android:name=".pdf15"
+            android:exported="false" />
+        <activity
+            android:name=".pdf14"
+            android:exported="false" />
+        <activity
+            android:name=".pdf13"
+            android:exported="false" />
+        <activity
+            android:name=".pdf12"
+            android:exported="false" />
+        <activity
+            android:name=".pdf11"
+            android:exported="false" />
+        <activity
+            android:name=".pdf10"
+            android:exported="false" />
+        <activity
+            android:name=".pdf9"
+            android:exported="false" />
+        <activity
+            android:name=".pdf8"
+            android:exported="false" />
+        <activity
+            android:name=".pdf7"
+            android:exported="false" />
+        <activity
+            android:name=".pdf6"
+            android:exported="false" />
+        <activity
+            android:name=".pdf5"
+            android:exported="false" />
+        <activity
+            android:name=".pdf4"
+            android:exported="false" />
+        <activity
+            android:name=".pdf3"
+            android:exported="false" />
+        <activity
+            android:name=".pdf2"
+            android:exported="false" />
+        <activity
+            android:name=".pdf"
+            android:exported="false" />
+        <activity
+            android:name=".MapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps" />
         <activity
             android:name=".Developer"
             android:exported="false" />
@@ -31,8 +191,80 @@
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
+            android:name=".MainActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity14"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity15"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity16"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity17"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity18"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity19"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity20"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity21"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity22"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity13"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity12"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity11"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity10"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity9"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity8"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity7"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity6"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
+
+
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+
         <activity
             android:name=".splashscreenok"
             android:exported="true">

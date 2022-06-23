@@ -1,27 +1,424 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+<ScrollView
     android:layout_height="match_parent"
-    tools:context="com.example.pceconnect.splashscreenok">
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/shadow_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:showDividers="none"
+        >
+
+
+
+        <FrameLayout
+            android:layout_gravity="center_horizontal" android:orientation="horizontal" android:background="#ffffffff" android:paddingLeft="10.0dip" android:paddingTop="20.0dip" android:paddingRight="10.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/memberImage11" android:layout_width="120.0dip" android:layout_height="120.0dip"  android:src="@drawable/leena"/>
+                    <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textStyle="bold"  android:textAppearance="?android:textAppearanceLarge" android:textSize="15.0sp" android:layout_gravity="left" android:id="@+id/memberName11" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:text="Dr. Leena H. Patil"/>
+                        <TextView
+                            android:textSize="14.0sp" android:layout_gravity="left" android:id="@+id/batch11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip"  android:text="Associate Professor &amp; HOD"/>
+
+                        <TextView android:textSize="11.0sp" android:layout_gravity="left" android:id="@+id/batch21" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip"  android:text="Ph.D. M. Tech.
+\nYears of Experience: 18
+\nPapers Published: 26"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+
+
+        <LinearLayout android:background="#263587" android:layout_width="fill_parent" android:layout_height="5.0dip"
+            android:layout_marginBottom="20dp"/>
 
 
 
 
-    <TextView
-        android:id="@+id/appname"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Faculties"
-        android:textSize="25dp"
-        android:layout_centerInParent="true"
-        android:textStyle="bold"
-        android:textColor="#676161"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="150dp"
-        />
 
 
-</RelativeLayout>
 
+
+
+
+        <FrameLayout
+            android:layout_gravity="center_horizontal" android:orientation="horizontal" android:background="#ffffffff" android:paddingLeft="10.0dip" android:paddingTop="20.0dip" android:paddingRight="10.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/memberImage12" android:layout_width="120.0dip" android:layout_height="120.0dip"  android:src="@drawable/chandrapal"/>
+                    <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textStyle="bold"  android:textAppearance="?android:textAppearanceLarge" android:textSize="15.0sp" android:layout_gravity="left" android:id="@+id/memberName12" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:text="Mr. Chandrapal U Chauhan"/>
+                        <TextView
+                            android:textSize="14.0sp" android:layout_gravity="left" android:id="@+id/batch12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip"  android:text="Assistant Professor"/>
+
+                        <TextView android:textSize="11.0sp" android:layout_gravity="left" android:id="@+id/batch22" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip"  android:text="M. Tech.
+
+\nYears of Experience: 12
+\nPapers Published: 10"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+
+
+        <LinearLayout android:background="#263587" android:layout_width="fill_parent" android:layout_height="5.0dip"
+            android:layout_marginBottom="20dp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <FrameLayout
+            android:layout_gravity="center_horizontal" android:orientation="horizontal" android:background="#ffffffff" android:paddingLeft="10.0dip" android:paddingTop="20.0dip" android:paddingRight="10.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/memberImage13" android:layout_width="120.0dip" android:layout_height="120.0dip"  android:src="@drawable/bhagayshree"/>
+                    <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textStyle="bold"  android:textAppearance="?android:textAppearanceLarge" android:textSize="15.0sp" android:layout_gravity="left" android:id="@+id/memberName13" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:text="Mrs. Bhagyashree P Dharaskar"/>
+                        <TextView
+                            android:textSize="14.0sp" android:layout_gravity="left" android:id="@+id/batch13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip"  android:text="Assistant Professor"/>
+
+                        <TextView android:textSize="11.0sp" android:layout_gravity="left" android:id="@+id/batch23" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip"  android:text="Ph. D. (Pursuing)
+\nYears of Experience: 20.5
+\nPapers Published: 02"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+
+
+        <LinearLayout android:background="#263587" android:layout_width="fill_parent" android:layout_height="5.0dip"
+            android:layout_marginBottom="20dp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <FrameLayout
+            android:layout_gravity="center_horizontal" android:orientation="horizontal" android:background="#ffffffff" android:paddingLeft="10.0dip" android:paddingTop="20.0dip" android:paddingRight="10.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/memberImage14" android:layout_width="120.0dip" android:layout_height="120.0dip"  android:src="@drawable/uma"/>
+                    <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textStyle="bold"  android:textAppearance="?android:textAppearanceLarge" android:textSize="15.0sp" android:layout_gravity="left" android:id="@+id/memberName14" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:text="Dr. (Miss.) Uma K Thakur"/>
+                        <TextView
+                            android:textSize="14.0sp" android:layout_gravity="left" android:id="@+id/batch14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip"  android:text="Assistant Professor"/>
+
+                        <TextView android:textSize="11.0sp" android:layout_gravity="left" android:id="@+id/batch24" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip"  android:text="Ph. D. Pursuing, M. Tech.
+\nYears of Experience: 11
+\nPapers Published: 16"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+
+
+        <LinearLayout android:background="#263587" android:layout_width="fill_parent" android:layout_height="5.0dip"
+            android:layout_marginBottom="20dp"/>
+
+
+
+
+
+
+
+
+
+
+        <FrameLayout
+            android:layout_gravity="center_horizontal" android:orientation="horizontal" android:background="#ffffffff" android:paddingLeft="10.0dip" android:paddingTop="20.0dip" android:paddingRight="10.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/memberImage15" android:layout_width="120.0dip" android:layout_height="120.0dip"  android:src="@drawable/nilesh"/>
+                    <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textStyle="bold"  android:textAppearance="?android:textAppearanceLarge" android:textSize="15.0sp" android:layout_gravity="left" android:id="@+id/memberName15" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:text="Dr. Nilesh M Shelke"/>
+                        <TextView
+                            android:textSize="14.0sp" android:layout_gravity="left" android:id="@+id/batch15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip"  android:text="Assistant Professor"/>
+
+                        <TextView android:textSize="11.0sp" android:layout_gravity="left" android:id="@+id/batch25" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip"  android:text="Ph. D. (CSE), M.Tech. (CSE)
+\nYears of Experience: 22
+\nPapers Published: 34"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+
+
+        <LinearLayout android:background="#263587" android:layout_width="fill_parent" android:layout_height="5.0dip"
+            android:layout_marginBottom="20dp"/>
+
+
+
+
+
+        <FrameLayout
+            android:layout_gravity="center_horizontal" android:orientation="horizontal" android:background="#ffffffff" android:paddingLeft="10.0dip" android:paddingTop="20.0dip" android:paddingRight="10.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/memberImage16" android:layout_width="120.0dip" android:layout_height="120.0dip"  android:src="@drawable/swati"/>
+                    <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textStyle="bold"  android:textAppearance="?android:textAppearanceLarge" android:textSize="15.0sp" android:layout_gravity="left" android:id="@+id/memberName16" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:text="Mrs. Swati R Dhabarde"/>
+                        <TextView
+                            android:textSize="14.0sp" android:layout_gravity="left" android:id="@+id/batch16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip"  android:text="Assistant Professor"/>
+
+                        <TextView android:textSize="11.0sp" android:layout_gravity="left" android:id="@+id/batch26" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip"  android:text="M. Tech.
+\nYears of Experience: 13
+\nPapers Published: 02"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+
+
+        <LinearLayout android:background="#263587" android:layout_width="fill_parent" android:layout_height="5.0dip"
+            android:layout_marginBottom="20dp"/>
+
+
+
+
+
+        <FrameLayout
+            android:layout_gravity="center_horizontal" android:orientation="horizontal" android:background="#ffffffff" android:paddingLeft="10.0dip" android:paddingTop="20.0dip" android:paddingRight="10.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/memberImage17" android:layout_width="120.0dip" android:layout_height="120.0dip"  android:src="@drawable/himanshu"/>
+                    <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textStyle="bold"  android:textAppearance="?android:textAppearanceLarge" android:textSize="15.0sp" android:layout_gravity="left" android:id="@+id/memberName17" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:text="Mr. Himanshu V Taiwade"/>
+                        <TextView
+                            android:textSize="14.0sp" android:layout_gravity="left" android:id="@+id/batch17" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip"  android:text="Assistant Professor"/>
+
+                        <TextView android:textSize="11.0sp" android:layout_gravity="left" android:id="@+id/batch27" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip"  android:text="M.Tech.(CSE), BE(IT)
+\nYears of Experience: 08
+\nPapers Published: 14"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+
+
+        <LinearLayout android:background="#263587" android:layout_width="fill_parent" android:layout_height="5.0dip"
+            android:layout_marginBottom="20dp"/>
+
+
+
+
+
+        <FrameLayout
+            android:layout_gravity="center_horizontal" android:orientation="horizontal" android:background="#ffffffff" android:paddingLeft="10.0dip" android:paddingTop="20.0dip" android:paddingRight="10.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/memberImage18" android:layout_width="120.0dip" android:layout_height="120.0dip"  android:src="@drawable/vaishanavi"/>
+                    <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textStyle="bold"  android:textAppearance="?android:textAppearanceLarge" android:textSize="15.0sp" android:layout_gravity="left" android:id="@+id/memberName18" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:text="Mrs. Vaishnavi Ganesh"/>
+                        <TextView
+                            android:textSize="14.0sp" android:layout_gravity="left" android:id="@+id/batch18" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip"  android:text="Assistant Professor"/>
+
+                        <TextView android:textSize="11.0sp" android:layout_gravity="left" android:id="@+id/batch28" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip"  android:text="M. Tech.
+\nYears of Experience: 6.6
+\nPapers Published: 02"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+
+
+        <LinearLayout android:background="#263587" android:layout_width="fill_parent" android:layout_height="5.0dip"
+            android:layout_marginBottom="20dp"/>
+
+
+
+
+        <FrameLayout
+            android:layout_gravity="center_horizontal" android:orientation="horizontal" android:background="#ffffffff" android:paddingLeft="10.0dip" android:paddingTop="20.0dip" android:paddingRight="10.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/memberImage19" android:layout_width="120.0dip" android:layout_height="120.0dip"  android:src="@drawable/namarata"/>
+                    <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textStyle="bold"  android:textAppearance="?android:textAppearanceLarge" android:textSize="15.0sp" android:layout_gravity="left" android:id="@+id/memberName19" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:text="Mrs. Namrata S Khade"/>
+                        <TextView
+                            android:textSize="14.0sp" android:layout_gravity="left" android:id="@+id/batch19" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip"  android:text="Assistant Professor"/>
+
+                        <TextView android:textSize="11.0sp" android:layout_gravity="left" android:id="@+id/batch29" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip"  android:text="M. Tech.
+\nYears of Experience: 07
+\nPapers Published: 08"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+
+
+        <LinearLayout android:background="#263587" android:layout_width="fill_parent" android:layout_height="5.0dip"
+            android:layout_marginBottom="20dp"/>
+
+
+
+
+
+        <FrameLayout
+            android:layout_gravity="center_horizontal" android:orientation="horizontal" android:background="#ffffffff" android:paddingLeft="10.0dip" android:paddingTop="20.0dip" android:paddingRight="10.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/memberImage110" android:layout_width="120.0dip" android:layout_height="120.0dip"  android:src="@drawable/prashant"/>
+                    <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textStyle="bold"  android:textAppearance="?android:textAppearanceLarge" android:textSize="15.0sp" android:layout_gravity="left" android:id="@+id/memberName110" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:text="Mr. Prashant H Govardhan"/>
+                        <TextView
+                            android:textSize="14.0sp" android:layout_gravity="left" android:id="@+id/batch110" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip"  android:text="Assistant Professor"/>
+
+                        <TextView android:textSize="11.0sp" android:layout_gravity="left" android:id="@+id/batch210" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip"  android:text="M. Tech.
+\nYears of Experience: 06
+\nPapers Published: 06"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+
+
+        <LinearLayout android:background="#263587" android:layout_width="fill_parent" android:layout_height="5.0dip"
+            android:layout_marginBottom="20dp"/>
+
+
+
+
+
+
+        <FrameLayout
+            android:layout_gravity="center_horizontal" android:orientation="horizontal" android:background="#ffffffff" android:paddingLeft="10.0dip" android:paddingTop="20.0dip" android:paddingRight="10.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/memberImage111" android:layout_width="120.0dip" android:layout_height="120.0dip"  android:src="@drawable/virendra"/>
+                    <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textStyle="bold"  android:textAppearance="?android:textAppearanceLarge" android:textSize="15.0sp" android:layout_gravity="left" android:id="@+id/memberName111" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:text="Mr. Virendra P Yadav"/>
+                        <TextView
+                            android:textSize="14.0sp" android:layout_gravity="left" android:id="@+id/batch111" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip"  android:text="Assistant Professor"/>
+
+                        <TextView android:textSize="11.0sp" android:layout_gravity="left" android:id="@+id/batch211" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip"  android:text="M. Tech.
+\nYears of Experience: 04
+\nPapers Published: 08"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+
+
+        <LinearLayout android:background="#263587" android:layout_width="fill_parent" android:layout_height="5.0dip"
+            android:layout_marginBottom="20dp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <FrameLayout
+            android:layout_gravity="center_horizontal" android:orientation="horizontal" android:background="#ffffffff" android:paddingLeft="10.0dip" android:paddingTop="20.0dip" android:paddingRight="10.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/memberImage1" android:layout_width="120.0dip" android:layout_height="120.0dip"  android:src="@drawable/pratibha"/>
+                    <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textStyle="bold"  android:textAppearance="?android:textAppearanceLarge" android:textSize="15.0sp" android:layout_gravity="left" android:id="@+id/memberName1" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:text="Ms. Pratibha Wagale"/>
+                        <TextView
+                            android:textSize="14.0sp" android:layout_gravity="left" android:id="@+id/batch1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip"  android:text="Assistant Professor"/>
+
+                        <TextView android:textSize="11.0sp" android:layout_gravity="left" android:id="@+id/batch2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip"  android:text="B.E.,M.Tech CSE
+\nYears of Experience: 12
+\nPapers Published: 00"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+
+
+        <LinearLayout android:background="#263587" android:layout_width="fill_parent" android:layout_height="5.0dip"
+            android:layout_marginBottom="20dp"/>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

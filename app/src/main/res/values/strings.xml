@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">PCE Connect</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="rohitghate10431_gmail_com">admission.pce.ltjss@gmail.com</string>
+    <string name="facebook_page">Follow on Facebook</string>
+    <string name="communication">Communication</string>
+    <string name="nav_rate">Rate Us</string>
+    <string name="nav_share">Share App</string>
+    <string name="nav_privacy_policy">Privacy Policy</string>
+    <string name="nav_terms_conditions">Terms and Conditions</string>
+    <string name="website">College Website</string>
+    <string name="more">More</string>
+    <string name="your_score">Your Score</string>
+    <string name="yugesh_verma">Yugesh Verma</string>
+    <string name="projectworldsofficial_gmail_com">projectworldsofficial@gmail.com</string>
+    <string name="gajendra_pradhan">Gajendra Pradhan</string>
+    <string name="gajenpradhan18_gmail_com">Gajenpradhan18@gmail.com</string>
+    <string name="quizapp">QuizApp</string>
+    <string name="question_number">0/20 Question</string>
 </resources>

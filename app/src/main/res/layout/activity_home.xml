@@ -1,18 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#DFD8D8"
+    android:layout_height="220dp"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:layout_marginTop="55dp"
+    android:background="#DFD8D8"
+    tools:context=".HomeActivity">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="9dp"
+        app:cardCornerRadius="12dp"
+
+
+        >
+
+
+
+
+        <com.smarteist.autoimageslider.SliderView
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:id="@+id/sliderView"
+            android:background="@drawable/image7"
+            app:sliderIndicatorEnabled="true"
+            app:sliderAnimationDuration="600"
+            app:sliderIndicatorAnimationDuration="600"
+            app:sliderAutoCycleDirection="right"
+            app:sliderIndicatorSelectedColor="#6370BA"
+            app:sliderIndicatorUnselectedColor="@color/white"
+            app:sliderIndicatorGravity="bottom|center_horizontal"
+            app:sliderIndicatorOrientation="horizontal"
+            app:sliderIndicatorRadius="2dp"
+            app:sliderIndicatorPadding="3dp"
+            app:sliderScrollTimeInSec="2"
+            app:sliderStartAutoCycle="true"
+            />
+    </androidx.cardview.widget.CardView>
+
+
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="180dp"
-        android:background="@drawable/image7"
-        />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DFD8D8"
+        android:orientation="vertical"
+        android:layout_marginTop="220dp"
+        >
+
+
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -69,6 +111,120 @@
                             android:layout_height="match_parent"
                             >
                             <ImageView
+                                android:id="@+id/website"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/website"
+                                android:layout_centerInParent="true"
+
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/txtwebsite"
+                                android:text="Website"
+                                android:textSize="16sp"
+                                android:textStyle="bold"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:textColor="#000"
+                                android:layout_below="@+id/website"
+                                />
+
+                            <Button
+                                android:id="@+id/btnwebsite"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/transparent"
+                                android:onClick="Website" />
+
+
+                        </RelativeLayout>
+
+
+
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="160dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        app:cardCornerRadius="20dp"
+                        >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            >
+                            <ImageView
+                                android:id="@+id/erp"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/e1"
+                                android:layout_centerInParent="true"
+
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/txterp"
+                                android:text="ERP"
+                                android:textSize="16sp"
+                                android:textStyle="bold"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:textColor="#000"
+                                android:layout_below="@+id/erp"
+                                />
+
+                            <Button
+                                android:id="@+id/btnerp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/transparent"
+                                android:onClick="ERP" />
+
+
+                        </RelativeLayout>
+
+
+
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="160dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        app:cardCornerRadius="20dp"
+                        >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            >
+                            <ImageView
                                 android:id="@+id/profile"
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
@@ -81,7 +237,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/txtprofile"
-                                android:text="TimeTable"
+                                android:text="Question Paper"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
                                 android:layout_centerInParent="true"
@@ -105,6 +261,123 @@
 
 
                     </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="160dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        app:cardCornerRadius="20dp"
+                        >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            >
+                            <ImageView
+                                android:id="@+id/news"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/notes"
+                                android:layout_centerInParent="true"
+
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/txtnews"
+                                android:text="Notes"
+                                android:textSize="16sp"
+                                android:textStyle="bold"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:textColor="#000"
+                                android:layout_below="@+id/news"
+                                />
+
+                            <Button
+                                android:id="@+id/btnnews"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/transparent"
+                                android:onClick="News" />
+
+
+                        </RelativeLayout>
+
+
+
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="160dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        app:cardCornerRadius="20dp"
+                        >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            >
+                            <ImageView
+                                android:id="@+id/route"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/aptitude"
+                                android:layout_centerInParent="true"
+
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/txtroute"
+                                android:text="Aptitude Test"
+                                android:textSize="16sp"
+                                android:textStyle="bold"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="10dp"
+                                android:textColor="#000"
+                                android:layout_below="@+id/route"
+                                />
+
+                            <Button
+                                android:id="@+id/btnroute"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/transparent"
+                                android:onClick="AptitudeTest" />
+
+
+                        </RelativeLayout>
+
+
+
+
+
+                    </androidx.cardview.widget.CardView>
+
+
                     <androidx.cardview.widget.CardView
                         android:layout_width="0dp"
                         android:layout_height="160dp"
@@ -161,10 +434,10 @@
 
                 </LinearLayout>
 
-
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="180dp"
+                    android:layout_height="190dp"
+                    android:layout_marginBottom="10dp"
                     android:orientation="horizontal"
 
                     >
@@ -233,10 +506,10 @@
                             android:layout_height="match_parent"
                             >
                             <ImageView
-                                android:id="@+id/route"
+                                android:id="@+id/result"
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:src="@drawable/aptitude"
+                                android:src="@drawable/results"
                                 android:layout_centerInParent="true"
 
                                 />
@@ -244,22 +517,22 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:id="@+id/txtroute"
-                                android:text="Aptitude Test"
+                                android:id="@+id/txtresult"
+                                android:text="Result"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
                                 android:layout_centerInParent="true"
                                 android:layout_marginTop="10dp"
                                 android:textColor="#000"
-                                android:layout_below="@+id/route"
+                                android:layout_below="@+id/result"
                                 />
 
                             <Button
-                                android:id="@+id/btnroute"
+                                android:id="@+id/btnresult"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:background="@android:color/transparent"
-                                android:onClick="AptitudeTest" />
+                                android:onClick="Result" />
 
 
                         </RelativeLayout>
@@ -274,6 +547,7 @@
 
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="190dp"
@@ -390,8 +664,15 @@
 
 
 
+
+
+
+
+
             </LinearLayout>
 
         </ScrollView>
     </LinearLayout>
-</LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+

@@ -1,27 +1,236 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+<ScrollView
     android:layout_height="match_parent"
-    tools:context="com.example.pceconnect.splashscreenok">
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/shadow_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:showDividers="none"
+        >
+
+
+
+    <FrameLayout
+        android:layout_gravity="center_horizontal" android:orientation="horizontal" android:background="#ffffffff" android:paddingLeft="10.0dip" android:paddingTop="20.0dip" android:paddingRight="10.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout
+             android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/memberImage1" android:layout_width="100.0dip" android:layout_height="100.0dip"  android:src="@drawable/rohit"/>
+                <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="15.0sp" android:layout_gravity="left" android:id="@+id/memberName1" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:text="Rohit Ghate"/>
+                    <TextView android:textSize="15.0sp" android:layout_gravity="left" android:id="@+id/batch1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip"  android:text="CSE 2019-2023"/>
+                    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:onClick="LinkDin1" android:layout_gravity="bottom" android:id="@+id/linkedIn_image1"  android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/linkedin" />
+                        <ImageView android:onClick="Facebook1" android:layout_gravity="bottom" android:id="@+id/facebook_image1" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/facebook" />
+                        <ImageView android:onClick="GitHub1" android:layout_gravity="bottom" android:id="@+id/github_image1" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/github1" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:background="#263587" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="5.0dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/role1image1" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/setting" android:alpha="0.6" />
+                <TextView android:textSize="15.0sp" android:id="@+id/role11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="Android Developer" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/role2image1" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="30.0dip" android:layout_marginRight="5.0dip" android:alpha="0.6" android:src="@drawable/creator" />
+                <TextView android:textSize="15.0sp" android:layout_gravity="end" android:id="@+id/role21" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="UI Designer" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout android:background="#263587" android:layout_width="fill_parent" android:layout_height="5.0dip"
+        android:layout_marginBottom="20dp"/>
 
 
 
 
-    <TextView
-        android:id="@+id/appname"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Developer"
-        android:textSize="25dp"
-        android:layout_centerInParent="true"
-        android:textStyle="bold"
-        android:textColor="#676161"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="150dp"
-        />
 
 
-</RelativeLayout>
 
+
+
+
+
+
+
+
+
+
+
+
+
+    <FrameLayout  android:layout_gravity="center_horizontal" android:orientation="horizontal" android:background="#ffffffff" android:paddingLeft="10.0dip" android:paddingTop="20.0dip" android:paddingRight="10.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout  android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/memberImage2" android:layout_width="100.0dip" android:layout_height="100.0dip"  android:src="@drawable/sameer"/>
+                <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="15.0sp" android:layout_gravity="left" android:id="@+id/memberName2" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:text="Sameer Lonare"/>
+                    <TextView android:textSize="15.0sp" android:layout_gravity="left" android:id="@+id/batch2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip"  android:text="CSE 2019-2023"/>
+                    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:onClick="LinkDin2" android:layout_gravity="bottom" android:id="@+id/linkedIn_image2"  android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/linkedin" />
+                        <ImageView android:onClick="Facebook2" android:layout_gravity="bottom" android:id="@+id/facebook_image2" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/facebook" />
+                        <ImageView android:onClick="GitHub2" android:layout_gravity="bottom" android:id="@+id/github_image2" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/github1" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:background="#263587" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="5.0dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/role1image2" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/setting" android:alpha="0.6" />
+                <TextView android:textSize="15.0sp" android:id="@+id/role12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="Android Developer" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/role2image2" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="30.0dip" android:layout_marginRight="5.0dip" android:alpha="0.6" android:src="@drawable/creator" />
+                <TextView android:textSize="15.0sp" android:layout_gravity="end" android:id="@+id/role22" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="UI Designer" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:background="#263587" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+
+
+
+
+
+
+        <FrameLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:background="#ffffffff" android:paddingLeft="10.0dip" android:paddingTop="20.0dip" android:paddingRight="10.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout  android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/memberImage4" android:layout_width="100.0dip" android:layout_height="100.0dip"  android:src="@drawable/tanu"/>
+                    <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="15.0sp" android:layout_gravity="left" android:id="@+id/memberName4" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:text="Tanushree Jatav"/>
+                        <TextView android:textSize="15.0sp" android:layout_gravity="left" android:id="@+id/batch4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip"  android:text="CSE 2019-2023"/>
+                        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <ImageView android:onClick="LinkDin4" android:layout_gravity="bottom" android:id="@+id/linkedIn_image4"  android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/linkedin" />
+                            <ImageView android:onClick="Facebook4" android:layout_gravity="bottom" android:id="@+id/facebook_image4" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/facebook" />
+                            <ImageView android:onClick="GitHub4" android:layout_gravity="bottom" android:id="@+id/github_image4" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/github1" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:background="#263587" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="5.0dip" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                    <ImageView android:layout_gravity="center_vertical" android:id="@+id/role1image4" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/setting" android:alpha="0.6" />
+                    <TextView android:textSize="15.0sp" android:id="@+id/role14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="Android Developer" />
+                    <ImageView android:layout_gravity="center_vertical" android:id="@+id/role2image4" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="30.0dip" android:layout_marginRight="5.0dip" android:alpha="0.6" android:src="@drawable/creator" />
+                    <TextView android:textSize="15.0sp" android:layout_gravity="end" android:id="@+id/role24" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="UI Designer" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="20dp"
+            android:background="#263587" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+
+
+
+
+
+
+    <FrameLayout  android:layout_gravity="center_horizontal" android:orientation="horizontal" android:background="#ffffffff" android:paddingLeft="10.0dip" android:paddingTop="20.0dip" android:paddingRight="10.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout  android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/memberImage3" android:layout_width="100.0dip" android:layout_height="100.0dip"  android:src="@drawable/sandana"/>
+                <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="15.0sp" android:layout_gravity="left" android:id="@+id/memberName3" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:text="Sandana Sunatkari"/>
+                    <TextView android:textSize="15.0sp" android:layout_gravity="left" android:id="@+id/batch3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip"  android:text="CSE 2019-2023"/>
+                    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:onClick="LinkDin3" android:layout_gravity="bottom" android:id="@+id/linkedIn_image3"  android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/linkedin" />
+                        <ImageView android:onClick="Facebook3" android:layout_gravity="bottom" android:id="@+id/facebook_image3" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/facebook" />
+                        <ImageView android:onClick="GitHub3" android:layout_gravity="bottom" android:id="@+id/github_image3" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/github1" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:background="#263587" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="5.0dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/role1image3" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/setting" android:alpha="0.6" />
+                <TextView android:textSize="15.0sp" android:id="@+id/role13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="Android Developer" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/role2image3" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="30.0dip" android:layout_marginRight="5.0dip" android:alpha="0.6" android:src="@drawable/creator" />
+                <TextView android:textSize="15.0sp" android:layout_gravity="end" android:id="@+id/role23" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="UI Designer" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:background="#263587" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <FrameLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:background="#ffffffff" android:paddingLeft="10.0dip" android:paddingTop="20.0dip" android:paddingRight="10.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout  android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/memberImage" android:layout_width="100.0dip" android:layout_height="100.0dip"  android:src="@drawable/aman"/>
+                <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="15.0sp" android:layout_gravity="left" android:id="@+id/memberName" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:text="Aman Kulkarni"/>
+                    <TextView android:textSize="15.0sp" android:layout_gravity="left" android:id="@+id/batch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip"  android:text="CSE 2019-2023"/>
+                    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:onClick="LinkDin" android:layout_gravity="bottom" android:id="@+id/linkedIn_image"  android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/linkedin" />
+                        <ImageView android:onClick="Facebook" android:layout_gravity="bottom" android:id="@+id/facebook_image" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/facebook" />
+                        <ImageView android:onClick="GitHub" android:layout_gravity="bottom" android:id="@+id/github_image" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/github1" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:background="#263587" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="5.0dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/role1image" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/setting" android:alpha="0.6" />
+                <TextView android:textSize="15.0sp" android:id="@+id/role1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="Android Developer" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/role2image" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="30.0dip" android:layout_marginRight="5.0dip" android:alpha="0.6" android:src="@drawable/creator" />
+                <TextView android:textSize="15.0sp" android:layout_gravity="end" android:id="@+id/role2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="UI Designer" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:background="#263587" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+
+
+
+
+    </LinearLayout>
+</ScrollView>
